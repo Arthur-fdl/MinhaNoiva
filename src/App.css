@@ -1,0 +1,164 @@
+/* Reset geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #ffe4e6, #fecdd3);
+  color: #7f1d1d;
+}
+
+/* Centralizar tudo */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Textos */
+h1, h2 {
+  color: #be123c;
+  text-align: center;
+}
+
+section {
+  padding: 2rem 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Imagens no carrossel */
+.swiper-slide img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  object-fit: contain;
+}
+
+/* Vídeo maior */
+video {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  margin-top: 1rem;
+}
+
+/* Carta */
+.card {
+  background-color: #fce7f3;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 600px;
+  text-align: left;
+}
+
+/* Rodapé */
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #9f1239;
+  text-align: center;
+}
+
+/* Botão de som */
+button {
+  background-color: #be123c;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #f43f5e;
+}
+
+
+.intro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #ffe4e6, #fecdd3);
+  padding: 2rem;
+}
+
+.intro-card {
+  background-color: white;
+  padding: 2rem 3rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.intro-card h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #be123c;
+}
+
+.intro-card p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #7f1d1d;
+}
+
+.intro-card button {
+  background-color: #be123c;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.intro-card button:hover {
+  background-color: #e11d48;
+}
+
+.carousel-section {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-wrapper {
+  max-width: 500px;
+  width: 100%;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+p {
+  text-align: center;
+}
+
