@@ -59,19 +59,20 @@ export default function App() {
             </div>
           </section>
 
-          <section>
-            <h2>Nosso Vídeo 🎥</h2>
-            <video
-              controls
-              autoPlay
-              loop
-              className="rounded-xl w-full max-w-2xl mx-auto shadow-xl"
-              style={{ height: "400px", objectFit: "cover" }}
-            >
-              <source src="/video/0610.mp4" type="video/mp4" />
-              Seu navegador não suporta vídeo.
-            </video>
-          </section>
+          <section className="px-4 py-8 bg-white/60">
+  <h2 className="text-2xl font-semibold mb-4">Um vídeo só nosso 🎥</h2>
+  <video
+    controls
+    autoPlay
+    loop
+    className="rounded-xl w-full max-w-2xl mx-auto shadow-xl"
+    style={{ height: "400px", objectFit: "cover" }}
+  >
+    <source src="/video/0610.mp4" type="video/mp4" />
+    Seu navegador não suporta vídeo.
+  </video>
+</section>
+
 
           <section>
             <div className="card">
