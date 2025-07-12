@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MinhaNoiva/static/css/main.bb944a1f.css",
+    "main.js": "/MinhaNoiva/static/js/main.4d4e5b56.js",
+    "static/js/453.3025f1d0.chunk.js": "/MinhaNoiva/static/js/453.3025f1d0.chunk.js",
+    "index.html": "/MinhaNoiva/index.html",
+    "main.bb944a1f.css.map": "/MinhaNoiva/static/css/main.bb944a1f.css.map",
+    "main.4d4e5b56.js.map": "/MinhaNoiva/static/js/main.4d4e5b56.js.map",
+    "453.3025f1d0.chunk.js.map": "/MinhaNoiva/static/js/453.3025f1d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb944a1f.css",
+    "static/js/main.4d4e5b56.js"
+  ]
+}
