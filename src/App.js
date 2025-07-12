@@ -59,20 +59,50 @@ export default function App() {
             </div>
           </section>
 
-          <section className="px-4 py-8 bg-white/60">
-  <h2 className="text-2xl font-semibold mb-4">Um vídeo só nosso 🎥</h2>
-  <video
-    controls
-    autoPlay
-    loop
-    className="rounded-xl w-full max-w-2xl mx-auto shadow-xl"
-    style={{ height: "400px", objectFit: "cover" }}
-  >
-    <source src="/video/0610.mp4" type="video/mp4" />
-    Seu navegador não suporta vídeo.
-  </video>
-</section>
-
+          {/* --- SEÇÃO DO VÍDEO ATUALIZADA --- */}
+          <section
+            className="video-section"
+            style={{
+              padding: "1rem",
+              // ALTERAÇÃO: Background mais suave
+              backgroundColor: "rgba(255, 255, 255, 0.3)" // Diminuiu a opacidade para 30%
+            }}
+          >
+            <h2 style={{ fontSize: "1.5rem", fontWeight: "600", marginBottom: "1rem", textAlign: "center" }}>
+              Um vídeo só nosso 🎥
+            </h2>
+            <div
+              style={{
+                position: "relative",
+                width: "100%",
+                height: "0px",
+                paddingBottom: "50%", // Proporção 3:4 (altura/largura)
+                maxWidth: "500px", // Alterado de 700px para 500px (você pode ajustar este valor)
+                margin: "0 auto",
+                overflow: "hidden"
+              }}
+            >
+              <iframe
+                allow="fullscreen"
+                allowFullScreen
+                height="100%"
+                src="https://streamable.com/e/uh9701?"
+                width="100%"
+                title="Nosso vídeo especial"
+                style={{
+                  border: "none",
+                  width: "100%",
+                  height: "100%",
+                  position: "absolute",
+                  left: "0px",
+                  top: "0px",
+                  overflow: "hidden",
+                  borderRadius: "1rem"
+                }}
+              ></iframe>
+            </div>
+          </section>
+          {/* --- FIM DA SEÇÃO DO VÍDEO ATUALIZADA --- */}
 
           <section>
             <div className="card">
